@@ -1,0 +1,32 @@
+body{
+    max-width: 1400px;
+    max-height: 1400px;
+}
+body header{
+    display: flex;
+}
+body header img{
+    margin-right: 900px;
+}
+body header button{
+    color: white;
+    background-color: rgb(34, 191, 253);
+    border-color:rgb(34, 191, 253);
+    border-radius: 10px; 
+    width: 130px;
+    height: 48px;
+    
+}
+body main ul {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    
+}
+body main ul li{
+    margin: 10px
+}
+body main ul li img {
+    max-width:  210px;
+    max-height: 210px;
+}
