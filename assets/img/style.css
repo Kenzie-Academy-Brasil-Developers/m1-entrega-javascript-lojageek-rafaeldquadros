@@ -1,32 +1,72 @@
-body{
-    max-width: 1400px;
-    max-height: 1400px;
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*{
+    font-family: 'Roboto', sans-serif;
 }
-body header{
+body {
+    background-color: #FFFFFF;
+    height: 100%;
+
+}
+header {
     display: flex;
+    justify-content: space-between;
 }
-body header img{
-    margin-right: 900px;
-}
-body header button{
-    color: white;
-    background-color: rgb(34, 191, 253);
-    border-color:rgb(34, 191, 253);
-    border-radius: 10px; 
-    width: 130px;
-    height: 48px;
+header nav{
     
 }
-body main ul {
+header button{
+    width: 150px;
+    height: 40px;
+    color: #868383;
+    background-color:#0A99FE;
+    border: none;
+    border-radius: 10px;  
+    opacity: 90%;
+}
+header button:hover{
+    width: 150px;
+    height: 40px;
+    color: #868383;
+    background-color:#0A99FE;
+    border: none;
+    border-radius: 10px;  
+    cursor: pointer;
+    opacity: 100%;
+
+}
+header button h3{
+    margin: 0 auto;
+    font-size: 20px;
+    
+}
+main section h2{
+    color: 	#1B1B1B;
+    font-size: 20px;
+}
+main section p{
+    color: #868383;
+   
+}
+main section img{
+    width: 207px;
+    height: 220px;
+}
+main section ul{
     display: flex;
     list-style: none;
-    justify-content: center;
+    gap: 10px;
+    width: 100vw;
+    overflow-x: scroll;
+}
+main section ul li{
+    min-width: 207px;
+    height: max-content;
     
 }
-body main ul li{
-    margin: 10px
+main section ul li .nomeProduto{
+    font-size: 20px;
 }
-body main ul li img {
-    max-width:  210px;
-    max-height: 210px;
+main section ul li .precoProduto{
+    font-size: 16px ;
 }
